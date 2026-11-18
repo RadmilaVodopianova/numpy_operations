@@ -1,0 +1,2 @@
+.\.venv\Scripts\python.exe -m pip install numpy
+.\.venv\Scripts\python.exe -m pip freeze | Set-Content -Encoding utf8 requirements.txt
